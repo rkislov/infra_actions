@@ -59,4 +59,5 @@ jobs:
             uses: docker/build-push-action@v2 
             with:
               push: true
-              tags: rkislov/infra_actions:latest 
+              tags: rkislov/infra_actions:latest
+               
