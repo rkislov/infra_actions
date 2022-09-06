@@ -71,4 +71,4 @@ jobs:
           sudo docker pull rkislov/infra_actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 rkislov/infra_actions 
+          sudo docker run --rm -d -p 5000:5000 rkislov/infra_actions
